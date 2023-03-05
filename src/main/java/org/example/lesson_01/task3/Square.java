@@ -58,8 +58,9 @@ public class Square extends Figure implements Geometrical {
                 "- ("+ bXCoordinate + "," + bYCoordinate + ")");
         double centerX = ((double)(aXCoordinate + bXCoordinate)) / 2;
         double centerY = ((double)(aYCoordinate + bYCoordinate)) / 2;
-        System.out.println("Центр квадрата: (" + String.format("%.1f",centerX) + "," + String.format("%.1f",centerY) + ")");
+        System.out.println("Центр квадрата: (" + String.format("%.1f",centerX) + ", " + String.format("%.1f",centerY) + ")");
         System.out.println("Периметр: " + String.format("%.2f", perimeter));
         System.out.println("Площадь: " + String.format("%.2f", area));
+        System.out.println();
     }
 }

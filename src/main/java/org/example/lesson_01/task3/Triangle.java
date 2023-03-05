@@ -87,5 +87,6 @@ public class Triangle extends Figure implements Geometrical {
         System.out.println("C: (" + cXCoordinate + "," + cYCoordinate + ")");
         System.out.println("Периметр: " + String.format("%.2f", perimeter));
         System.out.println("Площадь: " + String.format("%.2f", area));
+        System.out.println();
     }
 }

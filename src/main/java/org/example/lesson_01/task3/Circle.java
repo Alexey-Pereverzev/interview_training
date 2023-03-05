@@ -52,5 +52,6 @@ public class Circle extends Figure implements Geometrical {
         System.out.println("Радиус: " + radius);
         System.out.println("Длина окружности: " + String.format("%.2f", perimeter));
         System.out.println("Площадь: " + String.format("%.2f", area));
+        System.out.println();
     }
 }

@@ -85,6 +85,16 @@ public class Person {
         gender = builder.gender;
     }
 
+    @Override
+    public String toString() {
+        String result = "Hi! My name is " + firstName;
+        result = result + ((middleName.length()>0)?(" " + middleName):"");
+        result = result + " " + lastName + ". I am " + age + " years old " + gender + ". ";
+        result = result + "You can reach me by phone number " + phone + ". ";
+        result = result + "I am living in " + country + ", my address is " + address + ". Nice to meet you!";
+        return result;
+    }
+
     public static final class Builder {
         private String firstName;
         private String lastName;
@@ -145,5 +155,7 @@ public class Person {
         public Person build() {
             return new Person(this);
         }
+
+
     }
 }
