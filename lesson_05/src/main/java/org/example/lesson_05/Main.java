@@ -10,7 +10,7 @@ public class Main {
 //        dao.deleteById(713L);
 //        dao.save(new Student("Алексей Переверзев", 4.90));
 //        dao.update(new Student("Алексей Переверзев", 4.12));
-//        dao.update(8600L, 4.26);
+//        dao.update(600L, 4.26);
 
     }
 
