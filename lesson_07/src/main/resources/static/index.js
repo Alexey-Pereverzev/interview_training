@@ -51,14 +51,3 @@ angular.module('students', []).controller('indexController', function ($scope, $
 
 
 
-
-
-//
-// $scope.createNewProduct = function () {
-//     // console.log($scope.newProduct);
-//     $http.post('http://localhost:5555/core/api/v1/products', $scope.newProduct)
-//         .then(function (response) {
-//             $scope.newProduct = null;
-//             $scope.loadProducts();
-//         });
-// }
