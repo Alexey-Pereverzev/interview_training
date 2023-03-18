@@ -1,5 +1,6 @@
 package org.example.lesson_05;
 
+
 import javax.persistence.*;
 
 @Entity
